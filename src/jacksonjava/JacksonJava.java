@@ -1,8 +1,8 @@
 // Laboratorio 1 Conversione da oggetto Java a JSON e viceversa
 package jacksonjava;
 
-import com.fasterxml.jackson.core.*;
-import com.fasterxml.jackson.annotation.*;
+//import com.fasterxml.jackson.core.*; // not used
+//import com.fasterxml.jackson.annotation.*; // not used
 import com.fasterxml.jackson.databind.*;
 import java.io.File;
 
