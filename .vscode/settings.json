@@ -1,8 +1,17 @@
 {
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-annotations-2.17.1.jar",
-        "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-core-2.17.1.jar",
-        "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-databind-2.17.1.jar"
-    ]
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-annotations-2.17.1.jar",
+            "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-core-2.17.1.jar",
+            "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-databind-2.17.1.jar",
+            "jackson_jar_files/jackson-annotations-2.17.2.jar",
+            "jackson_jar_files/jackson-core-2.17.2.jar",
+            "jackson_jar_files/jackson-databind-2.17.2.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-annotations-2.17.2.jar",
+            "c:\\Users\\carlo\\Downloads\\jar_files\\jackson-core-2.17.2.jar"
+        ]
+    }
 }
